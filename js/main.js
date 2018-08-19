@@ -516,7 +516,7 @@ function moveRobot() {
         }
         case 2: {
             rx = 108;
-            ry = 123;
+            ry = 132;
 	    break;
         }
 	case 3: {
