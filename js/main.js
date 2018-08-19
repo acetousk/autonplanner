@@ -510,25 +510,25 @@ function moveRobot() {
     var startingTile = getProperty(initProperties,'start',1);
     switch(startingTile) {
         case 1: {
-            rx = 24;
-            ry = 96;
+            rx = 36;
+            ry = 132;
             break;
         }
         case 2: {
-            rx = 48;
-            ry = 120;
-			break;
+            rx = 108;
+            ry = 132;
+	    break;
         }
-		case 3: {
-			rx = 96;
-			ry = 24;
-			break;
-		}
-		case 4: {
-			rx = 120;
-			ry = 48;
-			break;
-		}
+	case 3: {
+	    rx = 36;
+     	    ry = 12;
+  	    break;
+	}
+	case 4: {
+	    rx = 108;
+	    ry = 12;
+	    break;
+	}
     }
 	rr = getProperty(initProperties,'rotation',0.0);
 	rx += getProperty(initProperties,'xoffset',0.0);
