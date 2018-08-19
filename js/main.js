@@ -692,25 +692,25 @@ $(".play-autonomous").click(function() {
      		var startingTile = getProperty(properties,'start',1);
      		switch(startingTile) {
     		    case 1: {
-    		        rx = 24;
-    		        ry = 96;
+    		        rx = 36;
+    		        ry = 132;
     		        break;
     		    }
     		    case 2: {
-    		        rx = 48;
-    		        ry = 120;
+    		        rx = 108;
+    		        ry = 132;
     		        break;
     		    }
     		    case 3: {
-    		        rx = 96;
-    		        ry = 24;
-        		    break;
-        		}
-        		case 4: {
-        		    rx = 120;
-        		    ry = 48;
-        		    break;
-        		}
+    		        rx = 36;
+    		        ry = 12;
+        	        break;
+		    }
+		    case 4: {
+        	        rx = 108;
+        	        ry = 12;
+        	        break;
+        	    }
     		}
     		rr = getProperty(properties,'rotation',0.0);
     		rx += getProperty(properties,'xoffset',0.0);
