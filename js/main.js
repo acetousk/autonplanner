@@ -5,12 +5,12 @@ var options = {
 	'digitalsensor':['Digital 1','Digital 2','Digital 3','Digital 4','Digital 5','Digital 6','Digital 7','Digital 8','Digital 9','Digital 10','Digital 11','Digital 12']};
 
 var field = [
-	[0,3,0,0,0,0],
-	[1,0,0,0,0,0],
 	[0,0,0,0,0,0],
 	[0,0,0,0,0,0],
-	[0,0,0,0,0,4],
-	[0,0,0,0,2,0]
+	[1,0,0,0,0,2],
+	[0,0,0,0,0,0],
+	[3,0,0,0,0,4],
+	[0,0,0,0,0,0]
 ];
 
 var components = [];
