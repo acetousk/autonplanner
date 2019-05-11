@@ -505,9 +505,9 @@ select {
 	top:0.5rem;
 	right:0.5rem;
 	bottom:0.5rem;
-	background:url(../images/turning-point-field.png);
+	background:url(../images/tower-takeover-field.png);
 	background-size:contain;
-	opacity:0.4;
+	opacity:1.0;
 	z-index:2;
 }
 
